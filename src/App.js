@@ -1,7 +1,6 @@
 import Header from './Header'
 import Menu from './Menu'
-import SideBar from './SideBar'
-import Conteudo from './Conteudo'
+import Main from './Main'
 import Footer from './Footer'
 import './style.css'
 
@@ -10,8 +9,7 @@ function App() {
     <>
       <Header />
       <Menu />
-      <SideBar />
-      <Conteudo />
+      <Main id="main"/>
       <Footer />
     </>
   )
